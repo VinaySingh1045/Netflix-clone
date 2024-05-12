@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 100%;
+}
+
+.main {
+    background-image: url(images/bg.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(2000px, 100vw);
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.58;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    /* margin: auto; */
+
+}
+/* addracard
+bara bill
+light bill 
+file  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    max-width: 75vw;
+    /* height: 60px; */
+    height: 90px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    /* height: 100px; */
+    width: 165px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.contain {
+    height: calc(100% - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 24px;
+    padding: 0px 23px;
+
+}
+
+.contain> :first-child {
+    /* height: 100%; */
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contain> :nth-child(2) {
+    /* height: 100%; */
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contain> :nth-child(3) {
+    /* height: 100%; */
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.line {
+    padding: 0px;
+    margin: 0px;
+    border: 4px solid rgb(48, 48, 48);
+}
+
+.lang {
+    padding: 6px 10px;
+    margin: 0px 10px;
+    
+}
+.english{
+    padding: 0px 15px 4px 23px;
+    font-size: 15px;
+    background-color: rgba(42, 42, 42, 0.4);
+    border-radius: 4px;
+    color: white;
+
+}
+
+.sign {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+.start {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 28px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    /* background-color: rgba(165, 165, 165, 0.4); */
+}
+
+input {
+    background-color: rgba(20, 20, 20, 0.4);
+    color: white;
+    font-size: 15px;
+    padding: 16px 70px 15px 12px;
+    border: 1px solid rgba(165, 165, 165, 0.7);
+    border-radius: 4px;
+    margin: 0px 7px ;
+    /* font-weight: 900; */
+}
+
+
+.down_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first_contain{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70vw;
+    padding: 26px;
+    /* flex-wrap: wrap; */
+    /* margin: 10px ; */
+}
+.sec_cont{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    margin: 10px;
+
+}
+.sec_img{
+    position: relative;
+}
+.sec_img img{
+    width: 566px;
+    /* width: 35vw; */
+    position: relative;
+    z-index: 10;
+}
+.sec_img video{
+    position: absolute;
+    /* width: 30vw; */
+    width: 490px;
+    right: 0;
+    top: 52px;
+
+}
+.sec_imgs img{
+    width: 566px;
+    /* width: 35vw; */
+    position: relative;
+    z-index: 10;
+}
+.sec_imgs video{
+    position: absolute;
+    /* width: 30vw; */
+    width: 333px;
+    right: 816px;
+    top: 1373px;
+
+}
+.sec_cont :first-child{
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0px 0px 10px 0px;
+}
+.sec_cont :nth-child(2){
+    font-size: 24px;
+}
+.sec_cont :nth-child(3){
+    font-size: 24px;
+}
+.faq{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 48px;
+    margin: 55px;
+}
+
+.question svg{
+    filter: invert(1);
+}
+.question:hover{
+    background-color: #414141;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    font-size: 24px;
+    background-color: #2d2d2d;
+    width: 50vw;
+    padding: 24px;
+    margin: 10px;
+    cursor: pointer;
+}
+.u{
+    margin: 20px;
+    color: white;
+}
+.words{
+    font-size: 24px;
+    margin: 35px 0px 20px;
+}
+
+.foot{
+    margin: 40px 11px 59px 200px;
+}
+.footer{
+    display: grid;
+    /* gap: 5px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.footer a{
+    /* display: grid; */
+    /* display: flex; */
+
+    color: white;
+    padding: 7px;
+    font-size: 14px;
+
+}
+.call{
+    color: white;
+    padding: 0px 0px 18px 0px;
+    font-size: 16px;
+}
+
+@media screen  and (max-width: 1400px) {
+    
+    .first_contain{
+    color: white;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70vw; */
+    flex-wrap: wrap;
+
+    }
+    .sec_img img{
+        width: 350px;
+    }
+    .sec_img video{
+        width: 298px;
+    
+    }
+
+    .footer{
+        display: grid;
+        /* gap: 5px; */
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .foot{
+        margin: 40px 11px 59px 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px ) {
+    .contain> :first-child {
+        font-size: 32px;
+    }
+    .contain> :nth-child(2)    {
+        font-size: 18px;
+    }
+    .contain> :nth-child(3)    {
+        font-size: 18px;
+    }
+    .down_btn {
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+    /* display: flex;
+        justify-content: space-around; */
+        max-width: 100vw;
+    }
+    .english {
+        margin: 20px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+
+/* .second_contain{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70vw;
+}
+.dusra_cont{
+    display: flex;
+    flex-direction: column;
+} */
+/* .sec_third img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+.sec_third video{
+    position: relative;
+    width: 22vw;
+    right: 83px;
+    top: 41px;
+    left: 0px;
+} */
